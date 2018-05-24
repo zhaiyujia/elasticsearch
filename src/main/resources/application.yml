@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: es-test
+  elasticsearch:
+    jest:
+      uris: http://172.16.168.135:9200
+      connection-timeout: 5000
+server:
+  port: 8090
